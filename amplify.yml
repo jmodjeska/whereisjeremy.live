@@ -1,0 +1,15 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+    build:
+      commands:
+        - gem install aws-sdk-secretsmanager
+        - ruby secret-test.rb
+  artifacts:
+    baseDirectory: /
+    files:
+      - '**/*'
+  cache:
+    paths: []

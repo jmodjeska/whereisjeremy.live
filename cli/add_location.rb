@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'aws-sdk-amplify'
-require_relative 'lib/manage_secrets'
+require_relative '../build/lib/manage_secrets'
 
 # This is a CLI script to run locally. It is not part of the Amplify build.
 

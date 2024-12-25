@@ -6,6 +6,7 @@ frontend:
     build:
       commands:
         - gem install aws-sdk-secretsmanager
+        - pwd
         - ruby build/build_index.rb
   artifacts:
     baseDirectory: /build/site

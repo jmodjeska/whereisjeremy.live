@@ -6,7 +6,7 @@ frontend:
     build:
       commands:
         - gem install aws-sdk-secretsmanager
-        - ruby secret-test.rb
+        - ruby build_index.rb
   artifacts:
     baseDirectory: /build/site
     files:

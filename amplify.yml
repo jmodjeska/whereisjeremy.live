@@ -8,7 +8,7 @@ frontend:
         - gem install aws-sdk-secretsmanager
         - ruby secret-test.rb
   artifacts:
-    baseDirectory: /
+    baseDirectory: /build/site
     files:
       - '**/*'
   cache:

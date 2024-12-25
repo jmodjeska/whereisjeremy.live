@@ -9,6 +9,7 @@ def get_secret
     raise e
   end
 
-  secret = get_secret_value_response.secret_string
-  puts secret
+  get_secret_value_response.secret_string
 end
+
+puts get_secret
